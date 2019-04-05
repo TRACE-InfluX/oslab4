@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 1
 
 
    1              		.arch armv7-a
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
   55 006c 8030A0E3 		mov	r3, #128
   56 0070 04308DE5 		str	r3, [sp, #4]
   57 0074 000000E3 		movw	r0, #:lower16:.LC14
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 2
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 2
 
 
   58 0078 000040E3 		movt	r0, #:upper16:.LC14
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  112 0140 D5FFFFEA 		b	.L2
  113              	.L3:
  114 0144 000000E3 		movw	r0, #:lower16:.LC16
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 3
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 3
 
 
  115 0148 000040E3 		movt	r0, #:upper16:.LC16
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  169 01f4 EEA1DDE5 		ldrb	r10, [sp, #494]	@ zero_extendqisi2
  170 01f8 EB91DDE5 		ldrb	r9, [sp, #491]	@ zero_extendqisi2
  171 01fc 24E08DE5 		str	lr, [sp, #36]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 4
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 4
 
 
  172 0200 EAE1DDE5 		ldrb	lr, [sp, #490]	@ zero_extendqisi2
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  226              	.LC13:
  227 0000 0A00     		.ascii	"\012\000"
  228 0002 0000     		.space	2
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 5
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 5
 
 
  229              	.LC14:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  260 00b0 41707200 		.ascii	"Apr\000"
  261              	.LC4:
  262 00b4 4D617900 		.ascii	"May\000"
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 6
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 6
 
 
  263              	.LC5:
@@ -316,27 +316,27 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  275              	.LC11:
  276 00d0 44656300 		.ascii	"Dec\000"
  277              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 8-2018-q4-major) 8.2.1 20181213 (release) [gcc
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 7
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:18     .text:00000000 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:25     .text:00000000 kernel_main
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:226    .rodata.str1.4:00000000 .LC13
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:229    .rodata.str1.4:00000004 .LC14
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:243    .rodata.str1.4:00000054 .LC19
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:238    .rodata.str1.4:00000038 .LC17
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:241    .rodata.str1.4:00000048 .LC18
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:18     .text:00000000 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:25     .text:00000000 kernel_main
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:226    .rodata.str1.4:00000000 .LC13
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:229    .rodata.str1.4:00000004 .LC14
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:243    .rodata.str1.4:00000054 .LC19
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:238    .rodata.str1.4:00000038 .LC17
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:241    .rodata.str1.4:00000048 .LC18
                             *COM*:000007d0 buffer
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:232    .rodata.str1.4:00000014 .LC15
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:235    .rodata.str1.4:00000028 .LC16
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:125    .text:00000154 DisplayDirectory
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:210    .rodata:00000000 .LANCHOR0
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:249    .rodata.str1.4:00000064 .LC22
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:246    .rodata.str1.4:00000058 .LC21
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:209    .rodata:00000000 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:225    .rodata.str1.4:00000000 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:232    .rodata.str1.4:00000014 .LC15
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:235    .rodata.str1.4:00000028 .LC16
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:125    .text:00000154 DisplayDirectory
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:210    .rodata:00000000 .LANCHOR0
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:249    .rodata.str1.4:00000064 .LC22
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:246    .rodata.str1.4:00000058 .LC21
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:209    .rodata:00000000 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:225    .rodata.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 printf
@@ -356,7 +356,7 @@ sdCloseHandle
 sdFindFirstFile
 sdFindNextFile
 sdFindClose
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 1
 
 
    1              	# 1 "src/boot/SmartStart32.S"
@@ -416,7 +416,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
   52              	;@"========================================================================="
   53              	#define I_Bit  (1 << 7)							// Irq flag bit in cpsr (CPUMODE register)
   54              	#define F_Bit  (1 << 6)							// Fiq flag bit in cpsr (CPUMODE register)
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 2
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 2
 
 
   55              	
@@ -476,7 +476,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  109              	.NotInHypMode:
  110              	;@"================================================================"
  111              	;@  Setup stack pointers for each core and each CPU operation mode
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 3
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 3
 
 
  112              	;@"================================================================"
@@ -536,7 +536,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  166 00e0 500F01EE 		mcr p15,0,r0,c1,c0, #2					;@ Access Control Register = R0
  167 00e4 0101A0E3 		mov r0, #0x40000000						;@ R0 = Enable VFP
  168 00e8 100AE8EE 		vmsr fpexc, r0							;@ FPEXC = R0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 4
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 4
 
 
  169              	;@"================================================================"
@@ -596,7 +596,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  223 0154 1F2002E2 		and r2, r2, #0x1F						;@ Clear all but CPU mode bits in register r2
  224 0158 68119FE5 		ldr r1, =RPi_CPUCurrentMode
  225 015c 002081E5 		str r2, [r1]							;@ Hold the changed CPU mode
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 5
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 5
 
 
  226              	;@"================================================================"
@@ -656,7 +656,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  280 01c0 FEFFFFEA 	    b .pi_detect_fail
  281              	;@"================================================================"
  282              	;@  Raspberry PI IO base address was detected as 0x3f000000
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 6
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 6
 
 
  283              	;@  RPi_IO_Base_Addr => 0x3f000000
@@ -716,7 +716,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  337 0254 0111A0E3 	 	mov	r1, #1073741824						;@ 0x40000000
  338 0258 94209FE5 	    ldr r2, =multicore_start				;@ Address of CoreSetup call
  339 025c AC2081E5 		str	r2, [r1, #172]						;@ Write ExtraCoreSetup to 0x400000AC which signals core2 to jump
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 7
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 7
 
 
  340              	.WaitCore2ACK:
@@ -776,7 +776,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  390 034c 405085E2 		add	r5, #(0x400000CC-0x4000008C)	@ mbox
  391              	SecondarySpinLoop:
  392 0350 004295E7 		ldr	r4, [r5, r0, lsl #4]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 8
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 8
 
 
  393 0354 030054E1 		cmp	r4, r3
@@ -836,7 +836,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  440 0400 1EFF2FE1 		bx  lr									;@ Return
  441              	
  442              	
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 9
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 9
 
 
  443              	.globl CoreExecute
@@ -896,7 +896,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  496              	;@ C Function: uint32_t GPUaddrToARMaddr (uint32_t BUSaddress);
  497              	;@ Entry: R0 will have GPUAddress value
  498              	;@"================================================================"
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 10
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 10
 
 
  499              	GPUaddrToARMaddr:
@@ -956,7 +956,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  553 000c 000053E3 	        cmp     r3, #0
  554 0010 0130A001 	        moveq   r3, r1
  555 0014 000083E0 	        add     r0, r3, r0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 11
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 11
 
 
  556 0018 000082E5 	        str     r0, [r2]
@@ -1011,7 +1011,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  593              	
  594              	.globl RPi_CompileMode;					// Make sure RPi_CompileMode label is global
  595 0014 00000000 	RPi_CompileMode : .4byte 0;				// Compile mode is 4 byte variable in 32bit mode
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 12
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 12
 
 
 DEFINED SYMBOLS
@@ -1071,7 +1071,7 @@ src/boot/SmartStart32.S:375    .text.startup:0000032c _unused_handler_h
 src/boot/SmartStart32.S:376    .text.startup:00000330 _interrupt_vector_h
 src/boot/SmartStart32.S:377    .text.startup:00000334 _fast_interrupt_vector_h
 src/boot/SmartStart32.S:370    .text.startup:00000318 $d
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 13
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 13
 
 
 src/boot/SmartStart32.S:520    .text.GPUaddrToARMaddr:0000001c _irq_handler_stub
@@ -1128,7 +1128,7 @@ __bss_start__
 __bss_end__
 kernel_main
 _end
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 1
 
 
    1              		.arch armv7-a
@@ -1188,7 +1188,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
   55 0068 FAFFFF1A 		bne	.L3
   56 006c 071083E0 		add	r1, r3, r7
   57 0070 015085E2 		add	r5, r5, #1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 2
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 2
 
 
   58 0074 050056E1 		cmp	r6, r5
@@ -1248,7 +1248,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  112 0118 14B090E5 		ldr	fp, [r0, #20]
  113 011c 8660A0E1 		lsl	r6, r6, #1
  114 0120 8C3083E0 		add	r3, r3, ip, lsl #1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 3
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 3
 
 
  115 0124 2290D0E5 		ldrb	r9, [r0, #34]	@ zero_extendqisi2
@@ -1308,7 +1308,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  169 01e8 141080E5 		str	r1, [r0, #20]
  170 01ec F08FBDE8 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
  171              	.L40:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 4
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 4
 
 
  172 01f0 0850A0E1 		mov	r5, r8
@@ -1368,7 +1368,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  226 0298 2180D0E5 		ldrb	r8, [r0, #33]	@ zero_extendqisi2
  227 029c 2060D0E5 		ldrb	r6, [r0, #32]	@ zero_extendqisi2
  228 02a0 834084E0 		add	r4, r4, r3, lsl #1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 5
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 5
 
 
  229 02a4 2800000A 		beq	.L50
@@ -1428,7 +1428,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  283              		.fpu neon
  284              		.type	DiagLine16, %function
  285              	DiagLine16:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 6
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 6
 
 
  286              		@ args = 4, pretend = 0, frame = 16
@@ -1488,7 +1488,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  340 0420 0CC09DE5 		ldr	ip, [sp, #12]
  341 0424 101080E5 		str	r1, [r0, #16]
  342 0428 92C322E0 		mla	r2, r2, r3, ip
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 7
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 7
 
 
  343 042c 142080E5 		str	r2, [r0, #20]
@@ -1548,7 +1548,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  397 04d4 0800A0E1 		mov	r0, r8
  398 04d8 0A00A0B1 		movlt	r0, r10
  399 04dc 0730A0E1 		mov	r3, r7
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 8
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 8
 
 
  400 04e0 076000E2 		and	r6, r0, #7
@@ -1608,7 +1608,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  454 0590 04208DE5 		str	r2, [sp, #4]
  455 0594 1400000A 		beq	.L73
  456 0598 0160A0E1 		mov	r6, r1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 9
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 9
 
 
  457 059c 0340A0E1 		mov	r4, r3
@@ -1668,7 +1668,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  511              	.L92:
  512 063c 0320A0E3 		mov	r2, #3
  513 0640 0400A0E1 		mov	r0, r4
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 10
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 10
 
 
  514 0644 024084E0 		add	r4, r4, r2
@@ -1728,7 +1728,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  568 06ec F08FBDE8 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
  569              	.L103:
  570 06f0 0400A0E1 		mov	r0, r4
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 11
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 11
 
 
  571 06f4 015085E2 		add	r5, r5, #1
@@ -1788,7 +1788,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  625              		@ frame_needed = 0, uses_anonymous_args = 0
  626 0780 F04F2DE9 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
  627 0784 00B0A0E1 		mov	fp, r0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 12
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 12
 
 
  628 0788 140090E5 		ldr	r0, [r0, #20]
@@ -1848,7 +1848,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  682              		@ sp needed
  683 0858 F08FBDE8 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
  684              		.size	DiagLine24, .-DiagLine24
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 13
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 13
 
 
  685              		.align	2
@@ -1908,7 +1908,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  739 090c 0CD08DE2 		add	sp, sp, #12
  740              		@ sp needed
  741 0910 F08FBDE8 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 14
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 14
 
 
  742              		.size	WriteChar24, .-WriteChar24
@@ -1968,7 +1968,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  796              		.arm
  797              		.fpu neon
  798              		.type	ClearArea32, %function
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 15
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 15
 
 
  799              	ClearArea32:
@@ -2028,7 +2028,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  853 0a48 00E083E5 		str	lr, [r3]
  854 0a4c 04E090E5 		ldr	lr, [r0, #4]
  855 0a50 0E3143E0 		sub	r3, r3, lr, lsl #2
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 16
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 16
 
 
  856 0a54 F8FFFF1A 		bne	.L168
@@ -2088,7 +2088,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  910 0ad4 107090E5 		ldr	r7, [r0, #16]
  911 0ad8 148090E5 		ldr	r8, [r0, #20]
  912 0adc 020051E1 		cmp	r1, r2
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 17
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 17
 
 
  913 0ae0 9E782CE0 		mla	ip, lr, r8, r7
@@ -2148,7 +2148,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  967 0b64 14C090E5 		ldr	ip, [r0, #20]
  968 0b68 04E090E5 		ldr	lr, [r0, #4]
  969 0b6c 1450DDE5 		ldrb	r5, [sp, #20]	@ zero_extendqisi2
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 18
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 18
 
 
  970 0b70 9E4C2CE0 		mla	ip, lr, ip, r4
@@ -2208,7 +2208,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1024 0c1c 042084E5 		str	r2, [r4, #4]
  1025 0c20 00E084E5 		str	lr, [r4]
  1026 0c24 10C084E5 		str	ip, [r4, #16]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 19
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 19
 
 
  1027 0c28 141084E5 		str	r1, [r4, #20]
@@ -2268,7 +2268,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1081 0cd0 041085E5 		str	r1, [r5, #4]
  1082              	.L217:
  1083 0cd4 041092E4 		ldr	r1, [r2], #4
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 20
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 20
 
 
  1084 0cd8 041083E4 		str	r1, [r3], #4
@@ -2328,7 +2328,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1138              		.arm
  1139              		.fpu neon
  1140              		.type	mailbox_tag_message.constprop.5, %function
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 21
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 21
 
 
  1141              	mailbox_tag_message.constprop.5:
@@ -2388,7 +2388,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1195 0e48 0CD08DE2 		add	sp, sp, #12
  1196 0e4c 1EFF2FE1 		bx	lr
  1197              	.L245:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 22
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 22
 
 
  1198 0e50 000054E3 		cmp	r4, #0
@@ -2448,7 +2448,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1252 0ef8 383092E5 		ldr	r3, [r2, #56]
  1253 0efc 000053E3 		cmp	r3, #0
  1254 0f00 FCFFFFBA 		blt	.L247
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 23
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 23
 
 
  1255 0f04 200082E5 		str	r0, [r2, #32]
@@ -2508,7 +2508,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1309 0fa0 934083E0 		umull	r4, r3, r3, r0
  1310 0fa4 00C09CE5 		ldr	ip, [ip]
  1311 0fa8 0740A0E3 		mov	r4, #7
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 24
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 24
 
 
  1312 0fac 3332A0E1 		lsr	r3, r3, r2
@@ -2568,7 +2568,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1366 102c 360050E3 		cmp	r0, #54
  1367 1030 0D00008A 		bhi	.L276
  1368 1034 002000E3 		movw	r2, #:lower16:RPi_IO_Base_Addr
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 25
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 25
 
 
  1369 1038 1F1000E2 		and	r1, r0, #31
@@ -2628,7 +2628,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1423              		@ frame_needed = 0, uses_anonymous_args = 0
  1424              		@ link register save eliminated.
  1425 10b8 360050E3 		cmp	r0, #54
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 26
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 26
 
 
  1426 10bc 0B00008A 		bhi	.L282
@@ -2688,7 +2688,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1480 1164 0C518407 		streq	r5, [r4, ip, lsl #2]
  1481 1168 3080BDE8 		pop	{r4, r5, pc}
  1482              	.L288:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 27
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 27
 
 
  1483 116c 0000A0E3 		mov	r0, #0
@@ -2748,7 +2748,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1537 120c 04C093E5 		ldr	ip, [r3, #4]
  1538 1210 080093E5 		ldr	r0, [r3, #8]
  1539 1214 000051E1 		cmp	r1, r0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 28
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 28
 
 
  1540 1218 FAFFFF1A 		bne	.L298
@@ -2808,7 +2808,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1594              		.syntax unified
  1595              		.arm
  1596              		.fpu neon
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 29
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 29
 
 
  1597              		.type	timer_wait, %function
@@ -2868,7 +2868,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1651              		.fpu neon
  1652              		.type	mailbox_write, %function
  1653              	mailbox_write:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 30
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 30
 
 
  1654              		@ args = 0, pretend = 0, frame = 0
@@ -2928,7 +2928,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1708              		.size	mailbox_read, .-mailbox_read
  1709              		.align	2
  1710              		.global	mailbox_tag_message
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 31
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 31
 
 
  1711              		.syntax unified
@@ -2988,7 +2988,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1765 1468 F8FFFF1A 		bne	.L342
  1766 146c 043095E5 		ldr	r3, [r5, #4]
  1767 1470 020153E3 		cmp	r3, #-2147483648
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 32
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 32
 
 
  1768 1474 0300000A 		beq	.L361
@@ -3048,7 +3048,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1822 150c 20D08DE2 		add	sp, sp, #32
  1823              		@ sp needed
  1824 1510 1080BDE8 		pop	{r4, pc}
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 33
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 33
 
 
  1825              	.L363:
@@ -3108,7 +3108,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1879 15d4 20D08DE2 		add	sp, sp, #32
  1880              		@ sp needed
  1881 15d8 1080BDE8 		pop	{r4, pc}
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 34
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 34
 
 
  1882              	.L366:
@@ -3168,7 +3168,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1936 1680 28D08DE2 		add	sp, sp, #40
  1937              		@ sp needed
  1938 1684 7080BDE8 		pop	{r4, r5, r6, pc}
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 35
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 35
 
 
  1939              	.L382:
@@ -3228,7 +3228,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1993 1734 04C0A0E1 		mov	ip, r4
  1994 1738 003093E5 		ldr	r3, [r3]
  1995 173c 5222EBE7 		ubfx	r2, r2, #4, #12
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 36
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 36
 
 
  1996 1740 000040E3 		movt	r0, #:upper16:.LC2
@@ -3288,7 +3288,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2050 17e8 013043E0 		sub	r3, r3, r1
  2051 17ec 1C3082E5 		str	r3, [r2, #28]
  2052 17f0 1EFF2FE1 		bx	lr
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 37
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 37
 
 
  2053              	.L397:
@@ -3348,7 +3348,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2107 1894 1C808405 		streq	r8, [r4, #28]
  2108 1898 0700A0E1 		mov	r0, r7
  2109 189c F5FFFF0A 		beq	.L412
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 38
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 38
 
 
  2110 18a0 090053E3 		cmp	r3, #9
@@ -3408,7 +3408,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2164              		.align	2
  2165              		.global	MoveToEx
  2166              		.syntax unified
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 39
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 39
 
 
  2167              		.arm
@@ -3468,7 +3468,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2221              		@ sp needed
  2222 19a4 1080BDE8 		pop	{r4, pc}
  2223              	.L459:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 40
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 40
 
 
  2224 19a8 030052E1 		cmp	r2, r3
@@ -3528,7 +3528,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2278 1a40 000050E3 		cmp	r0, #0
  2279 1a44 F087BD08 		popeq	{r4, r5, r6, r7, r8, r9, r10, pc}
  2280 1a48 000057E3 		cmp	r7, #0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 41
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 41
 
 
  2281 1a4c 0F0000DA 		ble	.L465
@@ -3588,7 +3588,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2335              		.size	BmpOut, .-BmpOut
  2336              		.align	2
  2337              		.global	CvtBmpLine
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 42
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 42
 
 
  2338              		.syntax unified
@@ -3648,7 +3648,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2392 1b94 EDFFFFEA 		b	.L482
  2393              	.L504:
  2394 1b98 0610A0E1 		mov	r1, r6
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 43
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 43
 
 
  2395              	.L484:
@@ -3708,7 +3708,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2449 1c60 032082E2 		add	r2, r2, #3
  2450 1c64 0C0052E1 		cmp	r2, ip
  2451 1c68 04E0C1E4 		strb	lr, [r1], #4
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 44
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 44
 
 
  2452 1c6c 024052E5 		ldrb	r4, [r2, #-2]	@ zero_extendqisi2
@@ -3768,7 +3768,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2506 1d30 9E62CAE7 		bfi	r6, lr, #5, #6
  2507 1d34 B060C5E1 		strh	r6, [r5]	@ movhi
  2508 1d38 0150A0E1 		mov	r5, r1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 45
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 45
 
 
  2509 1d3c F5FFFF1A 		bne	.L486
@@ -3828,7 +3828,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2563 1dfc 00E0A0E3 		mov	lr, #0
  2564 1e00 08508DE2 		add	r5, sp, #8
  2565 1e04 000000EA 		b	.L498
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 46
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 46
 
 
  2566              	.L507:
@@ -3888,7 +3888,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2620              		.align	2
  2621              		.global	Rectangle
  2622              		.syntax unified
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 47
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 47
 
 
  2623              		.arm
@@ -3948,7 +3948,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2677 1f2c 58409DE5 		ldr	r4, [sp, #88]
  2678              	.L544:
  2679 1f30 2C408DE5 		str	r4, [sp, #44]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 48
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 48
 
 
  2680 1f34 0190A0E3 		mov	r9, #1
@@ -4008,7 +4008,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2734 1ffc 104083E5 		str	r4, [r3, #16]
  2735 2000 241083E5 		str	r1, [r3, #36]
  2736 2004 2C2083E5 		str	r2, [r3, #44]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 49
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 49
 
 
  2737 2008 4700000A 		beq	.L546
@@ -4068,7 +4068,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2791 20cc 38C083E5 		str	ip, [r3, #56]
  2792 20d0 3C0083E5 		str	r0, [r3, #60]
  2793 20d4 401083E5 		str	r1, [r3, #64]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 50
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 50
 
 
  2794 20d8 442083E5 		str	r2, [r3, #68]
@@ -4128,7 +4128,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2848 217c 1EFF2FE1 		bx	lr
  2849              	.L567:
  2850              		.align	2
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 51
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 51
 
 
  2851              	.L566:
@@ -4188,7 +4188,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2905              	_sbrk:
  2906              		@ args = 0, pretend = 0, frame = 0
  2907              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 52
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 52
 
 
  2908              		@ link register save eliminated.
@@ -4248,7 +4248,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2962 2204 1EFF2FE1 		bx	lr
  2963              		.size	_read, .-_read
  2964              		.align	2
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 53
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 53
 
 
  2965              		.weak	_close
@@ -4308,7 +4308,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3019              		.weak	_exit
  3020              		.syntax unified
  3021              		.arm
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 54
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 54
 
 
  3022              		.fpu neon
@@ -4368,7 +4368,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3076 22b8 1C3094E5 		ldr	r3, [r4, #28]
  3077 22bc 053083E2 		add	r3, r3, #5
  3078 22c0 001073E2 		rsbs	r1, r3, #0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 55
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 55
 
 
  3079 22c4 032003E2 		and	r2, r3, #3
@@ -4428,7 +4428,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3133 0078 0000183C 		.word	1008205824
  3134 007c 00000000 		.word	0
  3135 0080 FFFFFFFF 		.word	-1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 56
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 56
 
 
  3136 0084 C3E7FFFF 		.word	-6205
@@ -4488,7 +4488,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3190 015c 0000007C 		.word	2080374784
  3191 0160 00000000 		.word	0
  3192 0164 00000000 		.word	0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 57
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 57
 
 
  3193 0168 FEFEFEFE 		.word	-16843010
@@ -4548,7 +4548,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3247 0240 C67C1818 		.word	404257990
  3248 0244 067CC0C2 		.word	-1027572730
  3249 0248 7CC68606 		.word	109495932
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 58
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 58
 
 
  3250 024c 00001818 		.word	404226048
@@ -4608,7 +4608,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3304 0324 30180C06 		.word	101455920
  3305 0328 FEC6C060 		.word	1623246590
  3306 032c 00000000 		.word	0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 59
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 59
 
 
  3307 0330 C67C0000 		.word	31942
@@ -4668,7 +4668,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3361 0408 7CC0DCDE 		.word	-555958148
  3362 040c 00000000 		.word	0
  3363 0410 38100000 		.word	4152
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 60
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 60
 
 
  3364 0414 FEC6C66C 		.word	1824966398
@@ -4728,7 +4728,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3418 04ec 00000000 		.word	0
  3419 04f0 C67C0000 		.word	31942
  3420 04f4 C6C6C6C6 		.word	-960051514
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 61
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 61
 
 
  3421 04f8 7CC6C6C6 		.word	-960051588
@@ -4788,7 +4788,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3475 05d0 0C3C0000 		.word	15372
  3476 05d4 0C0C0C0C 		.word	202116108
  3477 05d8 3C0C0C0C 		.word	202116156
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 62
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 62
 
 
  3478 05dc 00000000 		.word	0
@@ -4848,7 +4848,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3532 06b4 786C6660 		.word	1617325176
  3533 06b8 E6666C78 		.word	2020370150
  3534 06bc 00000000 		.word	0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 63
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 63
 
 
  3535 06c0 18380000 		.word	14360
@@ -4908,7 +4908,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3589 0798 7EC6C6C6 		.word	-960051586
  3590 079c 00F80C06 		.word	101513216
  3591 07a0 00000000 		.word	0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 64
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 64
 
 
  3592 07a4 18CCFE00 		.word	16698392
@@ -4968,7 +4968,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3646 087c 0000003C 		.word	1006632960
  3647 0880 6C381000 		.word	1063020
  3648 0884 FEC67C00 		.word	8177406
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 65
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 65
 
 
  3649 0888 7CC6C0C0 		.word	-1061108100
@@ -5028,7 +5028,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3703 0960 CC783000 		.word	3176652
  3704 0964 CCCCCC00 		.word	13421772
  3705 0968 76CCCCCC 		.word	-858993546
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 66
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 66
 
 
  3706 096c 00000000 		.word	0
@@ -5088,7 +5088,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3760 0a44 6666DC00 		.word	14444134
  3761 0a48 66666666 		.word	1717986918
  3762 0a4c 00000000 		.word	0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 67
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 67
 
 
  3763 0a50 C600DC76 		.word	1994129606
@@ -5148,7 +5148,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3817 0b28 77DD77DD 		.word	-579347081
  3818 0b2c 77DD77DD 		.word	-579347081
  3819 0b30 18181818 		.word	404232216
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 68
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 68
 
 
  3820 0b34 18181818 		.word	404232216
@@ -5208,7 +5208,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3874 0c0c 00000000 		.word	0
  3875 0c10 18181818 		.word	404232216
  3876 0c14 FF181818 		.word	404232447
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 69
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 69
 
 
  3877 0c18 00000000 		.word	0
@@ -5268,7 +5268,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3931 0cf0 18181818 		.word	404232216
  3932 0cf4 FF00FF18 		.word	419365119
  3933 0cf8 00000000 		.word	0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 70
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 70
 
 
  3934 0cfc 00000000 		.word	0
@@ -5328,7 +5328,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3988 0dd4 F0F0F0F0 		.word	-252645136
  3989 0dd8 F0F0F0F0 		.word	-252645136
  3990 0ddc F0F0F0F0 		.word	-252645136
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 71
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 71
 
 
  3991 0de0 0F0F0F0F 		.word	252645135
@@ -5388,7 +5388,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4045 0eb8 3C666666 		.word	1717986876
  4046 0ebc 00000000 		.word	0
  4047 0ec0 00000000 		.word	0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 72
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 72
 
 
  4048 0ec4 DBDB7E00 		.word	8313819
@@ -5448,7 +5448,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4102 0f9c 00000000 		.word	0
  4103 0fa0 00000000 		.word	0
  4104 0fa4 00000000 		.word	0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 73
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 73
 
 
  4105 0fa8 00000018 		.word	402653184
@@ -5508,7 +5508,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4155 1000 00000000 		.space	4
  4156              		.section	.rodata.str1.4,"aMS",%progbits,1
  4157              		.align	2
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 74
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 74
 
 
  4158              	.LC0:
@@ -5553,98 +5553,98 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4171      7574696F 
  4171      6E202569 
  4172              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 8-2018-q4-major) 8.2.1 20181213 (release) [gcc
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 75
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 75
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 rpi-SmartStart.c
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:18     .text:00000000 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:24     .text:00000000 ClearArea16
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:104    .text:00000104 VertLine16
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:216    .text:0000027c HorzLine16
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:285    .text:00000358 DiagLine16
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:353    .text:00000438 WriteChar16
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3102   .rodata:00000000 BitFont
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:436    .text:00000554 PutImage16
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:489    .text:000005f4 ClearArea24
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:530    .text:0000066c VertLine24
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:585    .text:00000714 HorzLine24
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:623    .text:00000780 DiagLine24
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:690    .text:0000085c WriteChar24
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:748    .text:00000914 PutImage24
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:799    .text:000009ac ClearArea32
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:833    .text:00000a08 VertLine32
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:876    .text:00000a84 HorzLine32
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:905    .text:00000acc DiagLine32
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:947    .text:00000b48 WriteChar32
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:961    .text:00000b58 PutImage32
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1002   .text:00000bd0 mailbox_tag_message.constprop.4
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1064   .text:00000c98 mailbox_tag_message.constprop.7
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1141   .text:00000d88 mailbox_tag_message.constprop.5
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1218   .text:00000e80 mailbox_tag_message.constprop.6
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1293   .text:00000f70 gpio_setup
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1329   .text:00000fd4 gpio_output
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1362   .text:0000102c gpio_input
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1392   .text:00001074 gpio_checkEvent
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1421   .text:000010b8 gpio_clearEvent
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1449   .text:000010f8 gpio_edgeDetect
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1492   .text:00001174 gpio_fixResistor
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1569   .text:0000126c timer_getTickCount
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1598   .text:000012b0 timer_wait
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1639   .text:00001320 tick_difference
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1653   .text:0000132c mailbox_write
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1683   .text:00001370 mailbox_read
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1715   .text:000013bc mailbox_tag_message
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1801   .text:000014c8 set_Activity_LED
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4136   .bss:00000000 .LANCHOR0
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4129   .data:00000000 .LANCHOR1
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1912   .text:00001634 ARM_setmaxspeed
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4158   .rodata.str1.4:00000000 .LC0
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1966   .text:000016d4 displaySmartStart
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4160   .rodata.str1.4:0000001c .LC1
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4164   .rodata.str1.4:00000064 .LC2
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2006   .text:0000174c Embedded_Console_WriteChar
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2066   .text:00001808 WriteText
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2138   .text:000018f0 SetDCPenColor
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2154   .text:00001904 SetDCBrushColor
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2170   .text:00001918 MoveToEx
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2195   .text:00001950 LineTo
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2269   .text:00001a28 TextOut
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2309   .text:00001a98 BmpOut
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2342   .text:00001aec CvtBmpLine
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2611   .text:00001e90 SmartStartPutPixelRaw
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 76
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:18     .text:00000000 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:24     .text:00000000 ClearArea16
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:104    .text:00000104 VertLine16
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:216    .text:0000027c HorzLine16
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:285    .text:00000358 DiagLine16
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:353    .text:00000438 WriteChar16
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3102   .rodata:00000000 BitFont
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:436    .text:00000554 PutImage16
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:489    .text:000005f4 ClearArea24
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:530    .text:0000066c VertLine24
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:585    .text:00000714 HorzLine24
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:623    .text:00000780 DiagLine24
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:690    .text:0000085c WriteChar24
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:748    .text:00000914 PutImage24
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:799    .text:000009ac ClearArea32
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:833    .text:00000a08 VertLine32
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:876    .text:00000a84 HorzLine32
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:905    .text:00000acc DiagLine32
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:947    .text:00000b48 WriteChar32
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:961    .text:00000b58 PutImage32
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1002   .text:00000bd0 mailbox_tag_message.constprop.4
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1064   .text:00000c98 mailbox_tag_message.constprop.7
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1141   .text:00000d88 mailbox_tag_message.constprop.5
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1218   .text:00000e80 mailbox_tag_message.constprop.6
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1293   .text:00000f70 gpio_setup
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1329   .text:00000fd4 gpio_output
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1362   .text:0000102c gpio_input
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1392   .text:00001074 gpio_checkEvent
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1421   .text:000010b8 gpio_clearEvent
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1449   .text:000010f8 gpio_edgeDetect
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1492   .text:00001174 gpio_fixResistor
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1569   .text:0000126c timer_getTickCount
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1598   .text:000012b0 timer_wait
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1639   .text:00001320 tick_difference
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1653   .text:0000132c mailbox_write
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1683   .text:00001370 mailbox_read
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1715   .text:000013bc mailbox_tag_message
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1801   .text:000014c8 set_Activity_LED
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4136   .bss:00000000 .LANCHOR0
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4129   .data:00000000 .LANCHOR1
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1912   .text:00001634 ARM_setmaxspeed
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4158   .rodata.str1.4:00000000 .LC0
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1966   .text:000016d4 displaySmartStart
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4160   .rodata.str1.4:0000001c .LC1
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4164   .rodata.str1.4:00000064 .LC2
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2006   .text:0000174c Embedded_Console_WriteChar
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2066   .text:00001808 WriteText
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2138   .text:000018f0 SetDCPenColor
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2154   .text:00001904 SetDCBrushColor
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2170   .text:00001918 MoveToEx
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2195   .text:00001950 LineTo
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2269   .text:00001a28 TextOut
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2309   .text:00001a98 BmpOut
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2342   .text:00001aec CvtBmpLine
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2611   .text:00001e90 SmartStartPutPixelRaw
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 76
 
 
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4167   .rodata.str1.4:000000a4 .LC3
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2626   .text:00001ea0 Rectangle
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2651   .text:00001ed4 PiConsole_Init
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4170   .rodata.str1.4:000000bc .LC4
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2843   .text:00002178 GetConsoleDC
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2852   .text:00002180 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2854   .text:00002184 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2860   .text:00002184 GetConsole_FrameBuffer
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2875   .text:00002194 GetConsole_Width
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2890   .text:000021a4 GetConsole_Height
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2905   .text:000021b4 _sbrk
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2927   .text:000021e0 _kill
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2944   .text:000021f8 _getpid
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2957   .text:00002200 _read
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2970   .text:00002208 _close
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2983   .text:00002210 _lseek
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2996   .text:00002218 _isatty
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3009   .text:00002220 _fstat
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3024   .text:00002230 _exit
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3037   .text:00002234 _write
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4144   .bss:00000004 console
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4154   .rodata:00001000 BitFontEnd
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3099   .rodata:00000000 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4128   .data:00000000 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4132   .data:00000000 ActivityGPIOPort
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4135   .bss:00000000 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4139   .bss:00000000 ModelCheckHasRun
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4148   .bss:00000048 heap_end.6851
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4157   .rodata.str1.4:00000000 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4167   .rodata.str1.4:000000a4 .LC3
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2626   .text:00001ea0 Rectangle
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2651   .text:00001ed4 PiConsole_Init
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4170   .rodata.str1.4:000000bc .LC4
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2843   .text:00002178 GetConsoleDC
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2852   .text:00002180 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2854   .text:00002184 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2860   .text:00002184 GetConsole_FrameBuffer
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2875   .text:00002194 GetConsole_Width
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2890   .text:000021a4 GetConsole_Height
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2905   .text:000021b4 _sbrk
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2927   .text:000021e0 _kill
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2944   .text:000021f8 _getpid
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2957   .text:00002200 _read
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2970   .text:00002208 _close
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2983   .text:00002210 _lseek
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2996   .text:00002218 _isatty
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3009   .text:00002220 _fstat
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3024   .text:00002230 _exit
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3037   .text:00002234 _write
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4144   .bss:00000004 console
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4154   .rodata:00001000 BitFontEnd
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3099   .rodata:00000000 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4128   .data:00000000 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4132   .data:00000000 ActivityGPIOPort
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4135   .bss:00000000 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4139   .bss:00000000 ModelCheckHasRun
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4148   .bss:00000048 heap_end.6851
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4157   .rodata.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 memcpy
@@ -5659,7 +5659,7 @@ hal_io_serial_puts
 GPUaddrToARMaddr
 _end
 errno
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 1
 
 
    1              		.arch armv7-a
@@ -5719,7 +5719,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
   55 0060 0150A0E3 		mov	r5, #1
   56 0064 30C0A0E3 		mov	ip, #48
   57 0068 14C0CDE5 		strb	ip, [sp, #20]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 2
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 2
 
 
   58 006c 0540A0E1 		mov	r4, r5
@@ -5779,7 +5779,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  112 0130 013046E2 		sub	r3, r6, #1
  113 0134 023043E0 		sub	r3, r3, r2
  114 0138 012082E2 		add	r2, r2, #1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 3
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 3
 
 
  115 013c 020080E0 		add	r0, r0, r2
@@ -5839,7 +5839,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  169 01ec 000051E3 		cmp	r1, #0
  170 01f0 070000BA 		blt	.L55
  171 01f4 04001CE3 		tst	ip, #4
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 4
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 4
 
 
  172 01f8 1E00001A 		bne	.L56
@@ -5899,7 +5899,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  226              		.global	vsprintf
  227              		.syntax unified
  228              		.arm
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 5
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 5
 
 
  229              		.fpu neon
@@ -5959,7 +5959,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  283              	.L68:
  284 0358 0210A0E1 		mov	r1, r2
  285 035c E5FFFFEA 		b	.L59
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 6
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 6
 
 
  286              	.L64:
@@ -6019,7 +6019,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  340 0414 3C050000 		.word	.L77
  341 0418 3C050000 		.word	.L77
  342 041c 3C050000 		.word	.L77
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 7
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 7
 
 
  343 0420 3C050000 		.word	.L77
@@ -6079,7 +6079,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  397 04f8 B0070000 		.word	.L85
  398 04fc 3C050000 		.word	.L77
  399 0500 3C050000 		.word	.L77
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 8
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 8
 
 
  400 0504 3C050000 		.word	.L77
@@ -6139,7 +6139,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  454 05c0 38050000 		.word	.L124
  455 05c4 38050000 		.word	.L124
  456 05c8 38050000 		.word	.L124
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 9
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 9
 
 
  457 05cc 38050000 		.word	.L124
@@ -6199,7 +6199,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  511 06a4 38050000 		.word	.L124
  512 06a8 38050000 		.word	.L124
  513 06ac BC070000 		.word	.L127
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 10
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 10
 
 
  514 06b0 A8070000 		.word	.L128
@@ -6259,7 +6259,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  568 0764 0100DAE5 		ldrb	r0, [r10, #1]	@ zero_extendqisi2
  569 0768 DDFEFFEA 		b	.L60
  570              	.L131:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 11
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 11
 
 
  571 076c 02A0A0E1 		mov	r10, r2
@@ -6319,7 +6319,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  625 0814 0E10A0E1 		mov	r1, lr
  626 0818 0C308DE5 		str	r3, [sp, #12]
  627 081c 0B00A0E1 		mov	r0, fp
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 12
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 12
 
 
  628 0820 FEFFFFEB 		bl	strnlen
@@ -6379,7 +6379,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  682 08dc 9AFFFFEA 		b	.L109
  683              	.L149:
  684 08e0 00E0A0E3 		mov	lr, #0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 13
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 13
 
 
  685              	.L74:
@@ -6439,7 +6439,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  739 0994 022043D2 		suble	r2, r3, #2
  740 0998 0C30A0D1 		movle	r3, ip
  741 099c 02C0A0D1 		movle	ip, r2
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 14
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 14
 
 
  742 09a0 A3FFFFDA 		ble	.L95
@@ -6499,7 +6499,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  796              		@ args = 4, pretend = 12, frame = 8
  797              		@ frame_needed = 0, uses_anonymous_args = 1
  798 0a2c 0E002DE9 		push	{r1, r2, r3}
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 15
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 15
 
 
  799 0a30 04E02DE5 		str	lr, [sp, #-4]!
@@ -6559,36 +6559,36 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  851      38394142 
  851      43444546 
  852              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 8-2018-q4-major) 8.2.1 20181213 (release) [gcc
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 16
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 16
 
 
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 17
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 17
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 emb-stdio.c
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:18     .text:00000000 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:24     .text:00000000 number
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:847    .rodata:00000000 .LANCHOR0
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:231    .text:000002ac vsprintf
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:264    .text:00000310 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:282    .text:00000354 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:329    .text:000003e8 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:414    .text:00000538 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:451    .text:000005b4 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:536    .text:00000704 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:787    .text:00000a28 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:789    .text:00000a2c $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:795    .text:00000a2c sprintf
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:817    .text:00000a58 printf
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:846    .rodata:00000000 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:850    .rodata:00000000 digits.6159
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:18     .text:00000000 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:24     .text:00000000 number
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:847    .rodata:00000000 .LANCHOR0
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:231    .text:000002ac vsprintf
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:264    .text:00000310 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:282    .text:00000354 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:329    .text:000003e8 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:414    .text:00000538 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:451    .text:000005b4 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:536    .text:00000704 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:787    .text:00000a28 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:789    .text:00000a2c $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:795    .text:00000a2c sprintf
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:817    .text:00000a58 printf
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:846    .rodata:00000000 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:850    .rodata:00000000 digits.6159
 
 UNDEFINED SYMBOLS
 strnlen
 _ctype_
 Embedded_Console_WriteChar
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 1
 
 
    1              		.arch armv7-a
@@ -6648,7 +6648,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
   55 006c 0150A0E1 		mov	r5, r1
   56 0070 EDFFFFEA 		b	.L2
   57              	.L3:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 2
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 2
 
 
   58 0074 FEFFFFEB 		bl	timer_getTickCount
@@ -6708,7 +6708,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  112 0114 5F7780E3 		orr	r7, r0, #24903680
  113 0118 14D04DE2 		sub	sp, sp, #20
  114 011c 0030A0E1 		mov	r3, r0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 3
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 3
 
 
  115 0120 0A7987E3 		orr	r7, r7, #163840
@@ -6768,7 +6768,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  169 01e4 000055E3 		cmp	r5, #0
  170 01e8 0800000A 		beq	.L31
  171 01ec 24109CE5 		ldr	r1, [ip, #36]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 4
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 4
 
 
  172 01f0 000000E3 		movw	r0, #:lower16:.LC2
@@ -6828,7 +6828,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  226 0284 0040A0E3 		mov	r4, #0
  227 0288 0050A0E3 		mov	r5, #0
  228 028c 006000E3 		movw	r6, #:lower16:RPi_IO_Base_Addr
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 5
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 5
 
 
  229 0290 006040E3 		movt	r6, #:upper16:RPi_IO_Base_Addr
@@ -6888,7 +6888,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  283 0350 00005A01 		cmpeq	r10, r0
  284 0354 EFFFFF8A 		bhi	.L68
  285 0358 2C1093E5 		ldr	r1, [r3, #44]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 6
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 6
 
 
  286 035c 0A00A0E3 		mov	r0, #10
@@ -6948,7 +6948,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  340 0428 FEFFFFEB 		bl	timer_getTickCount
  341 042c 0020A0E1 		mov	r2, r0
  342 0430 0130A0E1 		mov	r3, r1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 7
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 7
 
 
  343 0434 0400A0E1 		mov	r0, r4
@@ -7008,7 +7008,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  397              		.fpu neon
  398              		.type	SetFindDataFromFATEntry.part.0, %function
  399              	SetFindDataFromFATEntry.part.0:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 8
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 8
 
 
  400              		@ args = 0, pretend = 0, frame = 0
@@ -7068,7 +7068,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  454 05b0 50E081E5 		str	lr, [r1, #80]
  455 05b4 3E3003E2 		and	r3, r3, #62
  456 05b8 4CC081E5 		str	ip, [r1, #76]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 9
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 9
 
 
  457 05bc 483081E5 		str	r3, [r1, #72]
@@ -7128,7 +7128,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  511 0670 8A9F8FE2 		adr	r9, .L114
  512 0674 D080C9E1 		ldrd	r8, [r9]
  513              	.L86:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 10
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 10
 
 
  514 0678 00C094E5 		ldr	ip, [r4]
@@ -7188,7 +7188,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  568 0748 0C2083E5 		str	r2, [r3, #12]
  569 074c 2A00001A 		bne	.L110
  570              	.L93:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 11
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 11
 
 
  571 0750 0100A0E3 		mov	r0, #1
@@ -7248,7 +7248,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  625 0810 080053E3 		cmp	r3, #8
  626 0814 1D00000A 		beq	.L99
  627 0818 290053E3 		cmp	r3, #41
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 12
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 12
 
 
  628 081c 1800000A 		beq	.L100
@@ -7308,7 +7308,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  682 08d0 4E03A0E1 		asr	r0, lr, #6
  683 08d4 9030C1E7 		bfi	r3, r0, #1, #1
  684 08d8 2203A0E1 		lsr	r0, r2, #6
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 13
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 13
 
 
  685 08dc 1050C1E7 		bfi	r5, r0, #0, #2
@@ -7368,7 +7368,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  739 09b4 0720A0E1 		mov	r2, r7
  740 09b8 BE51D6E1 		ldrh	r5, [r6, #30]
  741 09bc 1E02C6E7 		bfi	r0, lr, #4, #3
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 14
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 14
 
 
  742 09c0 1352CFE7 		bfi	r5, r3, #4, #12
@@ -7428,7 +7428,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  796 0a94 2480C6E5 		strb	r8, [r6, #36]
  797 0a98 2B30C6E5 		strb	r3, [r6, #43]
  798 0a9c 2AC0C6E5 		strb	ip, [r6, #42]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 15
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 15
 
 
  799 0aa0 44FFFFEA 		b	.L85
@@ -7488,7 +7488,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  853 0b44 000053E3 		cmp	r3, #0
  854 0b48 330000BA 		blt	.L130
  855 0b4c 016056E2 		subs	r6, r6, #1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 16
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 16
 
 
  856 0b50 2E00000A 		beq	.L149
@@ -7548,7 +7548,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  910 0c0c F5FFFFEA 		b	.L133
  911              	.L149:
  912 0c10 0250A0E3 		mov	r5, #2
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 17
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 17
 
 
  913 0c14 0500A0E1 		mov	r0, r5
@@ -7608,7 +7608,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  967 0cb0 2C2083E5 		str	r2, [r3, #44]
  968 0cb4 FEFFFFEB 		bl	timer_wait
  969              	.L153:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 18
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 18
 
 
  970 0cb8 00309AE5 		ldr	r3, [r10]
@@ -7668,7 +7668,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1024 0d80 002040E3 		movt	r2, #:upper16:.LANCHOR0
  1025 0d84 031681E2 		add	r1, r1, #3145728
  1026 0d88 000040E3 		movt	r0, #:upper16:.LANCHOR1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 19
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 19
 
 
  1027 0d8c 38E081E5 		str	lr, [r1, #56]
@@ -7728,7 +7728,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1081 0e34 1A00001A 		bne	.L187
  1082 0e38 4030D5E5 		ldrb	r3, [r5, #64]	@ zero_extendqisi2
  1083 0e3c 004000E3 		movw	r4, #:lower16:RPi_IO_Base_Addr
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 20
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 20
 
 
  1084 0e40 004040E3 		movt	r4, #:upper16:RPi_IO_Base_Addr
@@ -7788,7 +7788,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1138              	.L170:
  1139 0f0c 000058E3 		cmp	r8, #0
  1140 0f10 042047E2 		sub	r2, r7, #4
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 21
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 21
 
 
  1141 0f14 2300001A 		bne	.L176
@@ -7848,7 +7848,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1195 0fd0 B3FFFF0A 		beq	.L187
  1196 0fd4 000000E3 		movw	r0, #:lower16:.LC8
  1197 0fd8 000040E3 		movt	r0, #:upper16:.LC8
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 22
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 22
 
 
  1198 0fdc 33FF2FE1 		blx	r3
@@ -7908,7 +7908,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1252 108c E90053E3 		cmp	r3, #233
  1253 1090 0900000A 		beq	.L233
  1254 1094 813F8DE2 		add	r3, sp, #516
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 23
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 23
 
 
  1255 1098 08508DE2 		add	r5, sp, #8
@@ -7968,7 +7968,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1309 115c 2EC0DDE5 		ldrb	ip, [sp, #46]	@ zero_extendqisi2
  1310 1160 012042E0 		sub	r2, r2, r1
  1311 1164 010080E2 		add	r0, r0, #1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 24
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 24
 
 
  1312 1168 011080E0 		add	r1, r0, r1
@@ -8028,7 +8028,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1366 1224 003094E5 		ldr	r3, [r4]
  1367 1228 000053E3 		cmp	r3, #0
  1368 122c 9FFFFF0A 		beq	.L202
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 25
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 25
 
 
  1369 1230 000000E3 		movw	r0, #:lower16:.LC8
@@ -8088,7 +8088,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1423 12c8 000000E3 		movw	r0, #:lower16:.LANCHOR1
  1424 12cc 002094E5 		ldr	r2, [r4]
  1425 12d0 029CA0E3 		mov	r9, #512
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 26
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 26
 
 
  1426 12d4 000040E3 		movt	r0, #:upper16:.LANCHOR1
@@ -8148,7 +8148,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1480 1384 5DFBFFEB 		bl	sdWaitForInterrupt
  1481 1388 000050E3 		cmp	r0, #0
  1482 138c 4600001A 		bne	.L294
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 27
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 27
 
 
  1483 1390 023C4AE2 		sub	r3, r10, #512
@@ -8208,7 +8208,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1537 1458 0C2C82E1 		orr	r2, r2, ip, lsl #24
  1538 145c 202081E5 		str	r2, [r1, #32]
  1539 1460 F2FFFF1A 		bne	.L247
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 28
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 28
 
 
  1540 1464 DAFFFFEA 		b	.L249
@@ -8268,7 +8268,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1594 1518 003050E2 		subs	r3, r0, #0
  1595 151c B3FFFF0A 		beq	.L255
  1596 1520 002096E5 		ldr	r2, [r6]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 29
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 29
 
 
  1597 1524 000052E3 		cmp	r2, #0
@@ -8328,7 +8328,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1651 15c8 A4009FE5 		ldr	r0, .L315
  1652 15cc 011011E2 		ands	r1, r1, #1
  1653 15d0 44109515 		ldrne	r1, [r5, #68]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 30
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 30
 
 
  1654 15d4 19FCFFEB 		bl	sdSendCommandP
@@ -8388,7 +8388,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1708              		.fpu neon
  1709              		.type	getSetNextCluster, %function
  1710              	getSetNextCluster:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 31
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 31
 
 
  1711              		@ args = 0, pretend = 0, frame = 512
@@ -8448,7 +8448,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1765 1744 03005BE1 		cmp	fp, r3
  1766 1748 FBFFFF1A 		bne	.L323
  1767 174c 000059E3 		cmp	r9, #0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 32
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 32
 
 
  1768 1750 05009D07 		ldreq	r0, [sp, r5]
@@ -8508,7 +8508,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1822 1814 003094E5 		ldr	r3, [r4]
  1823 1818 000053E3 		cmp	r3, #0
  1824 181c F9FFFF0A 		beq	.L351
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 33
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 33
 
 
  1825 1820 000000E3 		movw	r0, #:lower16:.LC8
@@ -8568,7 +8568,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1879 18b0 0270A0E1 		mov	r7, r2
  1880 18b4 033003E2 		and	r3, r3, #3
  1881 18b8 020053E3 		cmp	r3, #2
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 34
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 34
 
 
  1882 18bc 20504C02 		subeq	r5, ip, #32
@@ -8628,7 +8628,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1936 1974 00005CE3 		cmp	ip, #0
  1937 1978 011081E2 		add	r1, r1, #1
  1938 197c C5FFFF1A 		bne	.L360
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 35
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 35
 
 
  1939              	.L380:
@@ -8688,7 +8688,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  1993 1a10 020058E1 		cmp	r8, r2
  1994 1a14 7501002A 		bcs	.L430
  1995 1a18 0C1094E5 		ldr	r1, [r4, #12]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 36
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 36
 
 
  1996 1a1c 020C51E3 		cmp	r1, #512
@@ -8748,7 +8748,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2050              	.L407:
  2051 1af0 04909DE5 		ldr	r9, [sp, #4]
  2052 1af4 000059E3 		cmp	r9, #0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 37
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 37
 
 
  2053 1af8 5400001A 		bne	.L442
@@ -8808,7 +8808,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2107 1bb0 0C3084E5 		str	r3, [r4, #12]
  2108 1bb4 030052E1 		cmp	r2, r3
  2109 1bb8 1F01000A 		beq	.L428
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 38
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 38
 
 
  2110 1bbc 045094E5 		ldr	r5, [r4, #4]
@@ -8868,7 +8868,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2164 1c84 04309DE5 		ldr	r3, [sp, #4]
  2165 1c88 072086E0 		add	r2, r6, r7
  2166 1c8c 03C08CE1 		orr	ip, ip, r3
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 39
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 39
 
 
  2167 1c90 FF001CE3 		tst	ip, #255
@@ -8928,7 +8928,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2221              	.L401:
  2222 1d50 000058E3 		cmp	r8, #0
  2223 1d54 0030A0E3 		mov	r3, #0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 40
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 40
 
 
  2224 1d58 0030CCE5 		strb	r3, [ip]
@@ -8988,7 +8988,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2278 1e30 0D0058E3 		cmp	r8, #13
  2279 1e34 0C00C1E5 		strb	r0, [r1, #12]
  2280 1e38 2500DD15 		ldrbne	r0, [sp, #37]	@ zero_extendqisi2
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 41
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 41
 
 
  2281 1e3c 0D00C115 		strbne	r0, [r1, #13]
@@ -9048,7 +9048,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2335 1ef8 022086E2 		add	r2, r6, #2
  2336 1efc 0680A0E3 		mov	r8, #6
  2337 1f00 0310A0E3 		mov	r1, #3
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 42
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 42
 
 
  2338 1f04 05E0A0E3 		mov	lr, #5
@@ -9108,7 +9108,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2392              	.L527:
  2393 1fc0 000057E3 		cmp	r7, #0
  2394 1fc4 0020A0E3 		mov	r2, #0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 43
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 43
 
 
  2395 1fc8 0030A013 		movne	r3, #0
@@ -9168,7 +9168,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2449 2088 FEFFFFEB 		bl	wctob
  2450 208c 18308DE2 		add	r3, sp, #24
  2451 2090 7990EFE6 		uxtb	r9, r9
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 44
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 44
 
 
  2452 2094 09C083E0 		add	ip, r3, r9
@@ -9228,7 +9228,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2506 2120 004000E3 		movw	r4, #:lower16:.LANCHOR0
  2507 2124 0030A0E3 		mov	r3, #0
  2508 2128 004040E3 		movt	r4, #:upper16:.LANCHOR0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 45
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 45
 
 
  2509 212c 0030C2E5 		strb	r3, [r2]
@@ -9288,7 +9288,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2563 21fc 04C083E5 		str	ip, [r3, #4]
  2564 2200 04C093E5 		ldr	ip, [r3, #4]
  2565 2204 12C0C9E7 		bfi	ip, r2, #0, #10
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 46
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 46
 
 
  2566 2208 04C083E5 		str	ip, [r3, #4]
@@ -9348,7 +9348,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2620 22d8 601094E5 		ldr	r1, [r4, #96]
  2621 22dc 4020D4E5 		ldrb	r2, [r4, #64]	@ zero_extendqisi2
  2622 22e0 901626E0 		mla	r6, r0, r6, r1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 47
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 47
 
 
  2623 22e4 090052E1 		cmp	r2, r9
@@ -9408,7 +9408,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2677 23b0 840084E5 		str	r0, [r4, #132]
  2678 23b4 49DF8DE2 		add	sp, sp, #292
  2679              		@ sp needed
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 48
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 48
 
 
  2680 23b8 F08FBDE8 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
@@ -9468,7 +9468,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2734 2474 3BFFFFEA 		b	.L541
  2735              	.L589:
  2736              		.align	2
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 49
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 49
 
 
  2737              	.L588:
@@ -9528,7 +9528,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2791 2518 000055E3 		cmp	r5, #0
  2792 251c 0400A001 		moveq	r0, r4
  2793 2520 E7FFFF0A 		beq	.L590
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 50
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 50
 
 
  2794 2524 0510A0E1 		mov	r1, r5
@@ -9588,7 +9588,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2848 25a0 0130F0E5 		ldrb	r3, [r0, #1]!	@ zero_extendqisi2
  2849 25a4 000053E3 		cmp	r3, #0
  2850 25a8 FBFFFF1A 		bne	.L606
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 51
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 51
 
 
  2851              	.L605:
@@ -9648,7 +9648,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2905 2678 9C1727E0 		mla	r7, ip, r7, r1
  2906 267c 082083E5 		str	r2, [r3, #8]
  2907 2680 047083E5 		str	r7, [r3, #4]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 52
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 52
 
 
  2908 2684 0C2083E5 		str	r2, [r3, #12]
@@ -9708,7 +9708,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  2962 2754 3F00000A 		beq	.L615
  2963 2758 08109DE5 		ldr	r1, [sp, #8]
  2964 275c 1C208DE2 		add	r2, sp, #28
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 53
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 53
 
 
  2965 2760 0040A0E3 		mov	r4, #0
@@ -9768,7 +9768,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3019 2838 033683E2 		add	r3, r3, #3145728
  3020 283c 203083E2 		add	r3, r3, #32
  3021              	.L618:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 54
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 54
 
 
  3022 2840 001093E5 		ldr	r1, [r3]
@@ -9828,7 +9828,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3076 28f4 0C608DE5 		str	r6, [sp, #12]
  3077 28f8 1030A0E3 		mov	r3, #16
  3078 28fc 4DFFFFEA 		b	.L609
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 55
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 55
 
 
  3079              	.L623:
@@ -9888,7 +9888,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3133 29c4 18FFFFEA 		b	.L608
  3134              	.L653:
  3135              		.align	2
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 56
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 56
 
 
  3136              	.L652:
@@ -9948,7 +9948,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3190 2a68 18C394E5 		ldr	ip, [r4, #792]
  3191 2a6c 0C0052E1 		cmp	r2, ip
  3192 2a70 A300002A 		bcs	.L674
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 57
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 57
 
 
  3193 2a74 0C2094E5 		ldr	r2, [r4, #12]
@@ -10008,7 +10008,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3247 2b40 04E092E5 		ldr	lr, [r2, #4]
  3248 2b44 1CE0C9E7 		bfi	lr, ip, #0, #10
  3249 2b48 04E082E5 		str	lr, [r2, #4]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 58
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 58
 
 
  3250 2b4c BBF6FFEB 		bl	sdSendCommandP
@@ -10068,7 +10068,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3304 2c0c 030051E3 		cmp	r1, #3
  3305 2c10 002099E5 		ldr	r2, [r9]
  3306 2c14 032682E2 		add	r2, r2, #3145728
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 59
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 59
 
 
  3307 2c18 1900000A 		beq	.L708
@@ -10128,7 +10128,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3361 2cd8 000040E3 		movt	r0, #:upper16:.LC8
  3362 2cdc 33FF2FE1 		blx	r3
  3363 2ce0 0000A0E3 		mov	r0, #0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 60
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 60
 
 
  3364 2ce4 0CD08DE2 		add	sp, sp, #12
@@ -10188,7 +10188,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3418              		.type	sdSetFilePointer, %function
  3419              	sdSetFilePointer:
  3420              		@ args = 0, pretend = 0, frame = 16
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 61
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 61
 
 
  3421              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -10248,7 +10248,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3475 2e2c 007000E3 		movw	r7, #:lower16:RPi_IO_Base_Addr
  3476 2e30 007040E3 		movt	r7, #:upper16:RPi_IO_Base_Addr
  3477 2e34 02CCA0E3 		mov	ip, #512
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 62
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 62
 
 
  3478 2e38 8C029FE5 		ldr	r0, .L775
@@ -10308,7 +10308,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3532 2f08 0B108AE0 		add	r1, r10, fp
  3533 2f0c B8019FE5 		ldr	r0, .L775
  3534 2f10 030053E3 		cmp	r3, #3
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 63
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 63
 
 
  3535 2f14 003097E5 		ldr	r3, [r7]
@@ -10368,7 +10368,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3589              	.L769:
  3590 2fdc 0000E0E3 		mvn	r0, #0
  3591              	.L716:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 64
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 64
 
 
  3592 2fe0 14D08DE2 		add	sp, sp, #20
@@ -10428,7 +10428,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3646 30a8 B1FFFFEA 		b	.L735
  3647              	.L774:
  3648 30ac 012040E3 		movt	r2, 1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 65
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 65
 
 
  3649 30b0 8B14A0E1 		lsl	r1, fp, #9
@@ -10488,7 +10488,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3703 3120 CCF6FFEB 		bl	sdResetCard
  3704 3124 005050E2 		subs	r5, r0, #0
  3705 3128 0200000A 		beq	.L850
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 66
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 66
 
 
  3706              	.L784:
@@ -10548,7 +10548,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3760 31f4 8C30D6E5 		ldrb	r3, [r6, #140]	@ zero_extendqisi2
  3761 31f8 88039FE5 		ldr	r0, .L853+16
  3762 31fc 011013E2 		ands	r1, r3, #1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 67
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 67
 
 
  3763 3200 44109415 		ldrne	r1, [r4, #68]
@@ -10608,7 +10608,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3817 32cc 203093E5 		ldr	r3, [r3, #32]
  3818 32d0 000056E3 		cmp	r6, #0
  3819 32d4 016086E2 		add	r6, r6, #1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 68
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 68
 
 
  3820 32d8 2C308405 		streq	r3, [r4, #44]
@@ -10668,7 +10668,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3874 33ac B6C4D4E1 		ldrh	ip, [r4, #70]
  3875 33b0 566AE3E7 		ubfx	r6, r6, #20, #4
  3876 33b4 0BA68AE1 		orr	r10, r10, fp, lsl #12
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 69
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 69
 
 
  3877 33b8 28208DE5 		str	r2, [sp, #40]
@@ -10728,7 +10728,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3931 3480 37FF2FE1 		blx	r7
  3932 3484 003094E5 		ldr	r3, [r4]
  3933 3488 000000E3 		movw	r0, #:lower16:.LC15
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 70
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 70
 
 
  3934 348c 000040E3 		movt	r0, #:upper16:.LC15
@@ -10788,7 +10788,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  3988 3548 200013E3 		tst	r3, #32
  3989 354c E4FFFF1A 		bne	.L809
  3990 3550 DBFFFFEA 		b	.L810
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 71
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 71
 
 
  3991              	.L851:
@@ -10848,7 +10848,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4045 0010 60030000 		.word	.LC21
  4046              		.data
  4047              		.align	2
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 72
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 72
 
 
  4048              		.set	.LANCHOR1,. + 0
@@ -10908,7 +10908,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4089 0074 00       		.byte	0
  4090 0075 00       		.space	1
  4091 0076 0000     		.short	0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 73
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 73
 
 
  4092 0078 43415244 		.ascii	"CARD_SELECT\000"
@@ -10968,7 +10968,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4132      5F545241 
  4132      4E5300
  4133 00fb 00000000 		.space	5
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 74
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 74
 
 
  4133      00
@@ -11028,7 +11028,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4175 0178 32       		.byte	50
  4176 0179 00       		.space	1
  4177 017a 22       		.byte	34
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 75
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 75
 
 
  4178 017b 12       		.byte	18
@@ -11088,7 +11088,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4220 01f4 00       		.byte	0
  4221 01f5 00       		.space	1
  4222 01f6 0000     		.short	0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 76
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 76
 
 
  4223 01f8 50524F47 		.ascii	"PROGRAM_CSD\000"
@@ -11148,7 +11148,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4263      455F5752 
  4263      5F454E44 
  4263      00
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 77
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 77
 
 
  4264 027d 000000   		.space	3
@@ -11208,7 +11208,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4307 02fb 38       		.byte	56
  4308 02fc 00       		.byte	0
  4309 02fd 00       		.space	1
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 78
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 78
 
 
  4310 02fe 0000     		.short	0
@@ -11268,7 +11268,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4349 0375 00       		.space	1
  4350 0376 E803     		.short	1000
  4351 0378 5345545F 		.ascii	"SET_CLR_DET\000"
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 79
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 79
 
 
  4351      434C525F 
@@ -11328,7 +11328,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4389              		.align	2
  4390              	.LC0:
  4391 0000 454D4D43 		.ascii	"EMMC: Wait for data aborted: %08x %08x %08x\012\000"
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 80
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 80
 
 
  4391      3A205761 
@@ -11388,7 +11388,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4413      524F523A 
  4413      20666169 
  4413      6C656420 
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 81
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 81
 
 
  4414 0187 00       		.space	1
@@ -11448,7 +11448,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4435      3A205265 
  4435      6164696E 
  4435      67205343 
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 82
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 82
 
 
  4435      522C206F 
@@ -11484,103 +11484,103 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  4452      20322048 
  4452      4300
  4453              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 8-2018-q4-major) 8.2.1 20181213 (release) [gcc
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 83
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 83
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 SDCard.c
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:18     .text:00000000 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:24     .text:00000000 sdWaitForData
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4370   .bss:00000000 .LANCHOR0
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4390   .rodata.str1.4:00000000 .LC0
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:96     .text:000000f8 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:99     .text:00000100 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:104    .text:00000100 sdWaitForInterrupt
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4397   .rodata.str1.4:00000068 .LC2
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4393   .rodata.str1.4:00000030 .LC1
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:214    .text:00000278 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:217    .text:00000280 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:222    .text:00000280 sdSetClock
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4401   .rodata.str1.4:0000009c .LC3
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4405   .rodata.str1.4:000000e0 .LC4
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:391    .text:000004d8 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:394    .text:000004e0 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:399    .text:000004e0 SetFindDataFromFATEntry.part.0
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:496    .text:00000640 sdSendCommandP
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4408   .rodata.str1.4:0000010c .LC5
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:669    .text:000008a0 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:672    .text:000008a8 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:817    .text:00000acc sdAppSendOpCond
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4410   .rodata.str1.4:0000013c .LC6
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:933    .text:00000c4c $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:937    .text:00000c58 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:942    .text:00000c58 sdResetCard
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4048   .data:00000000 .LANCHOR1
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4412   .rodata.str1.4:00000168 .LC7
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1057   .text:00000df8 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1060   .text:00000e00 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1065   .text:00000e00 sdTransferBlocks.constprop.7
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4418   .rodata.str1.4:000001b4 .LC9
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4415   .rodata.str1.4:00000188 .LC8
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1206   .text:00000fe4 LoadDrivePartition
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4421   .rodata.str1.4:000001dc .LC10
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4427   .rodata.str1.4:0000022c .LC12
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4424   .rodata.str1.4:00000200 .LC11
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1379   .text:00001248 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1381   .text:0000124c $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1387   .text:0000124c sdTransferBlocks
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1607   .text:00001540 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1610   .text:00001548 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1616   .text:00001548 sdClearBlocks
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4430   .rodata.str1.4:00000278 .LC13
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1702   .text:00001674 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1704   .text:00001678 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1710   .text:00001678 getSetNextCluster
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1835   .text:00001838 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1838   .text:00001840 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1844   .text:00001840 WildcardMatch
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1960   .text:000019b8 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1962   .text:000019bc $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:1967   .text:000019bc LocateFATEntry
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2470   .text:000020d0 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2472   .text:000020d4 $a
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 84
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:18     .text:00000000 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:24     .text:00000000 sdWaitForData
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4370   .bss:00000000 .LANCHOR0
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4390   .rodata.str1.4:00000000 .LC0
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:96     .text:000000f8 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:99     .text:00000100 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:104    .text:00000100 sdWaitForInterrupt
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4397   .rodata.str1.4:00000068 .LC2
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4393   .rodata.str1.4:00000030 .LC1
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:214    .text:00000278 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:217    .text:00000280 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:222    .text:00000280 sdSetClock
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4401   .rodata.str1.4:0000009c .LC3
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4405   .rodata.str1.4:000000e0 .LC4
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:391    .text:000004d8 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:394    .text:000004e0 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:399    .text:000004e0 SetFindDataFromFATEntry.part.0
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:496    .text:00000640 sdSendCommandP
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4408   .rodata.str1.4:0000010c .LC5
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:669    .text:000008a0 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:672    .text:000008a8 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:817    .text:00000acc sdAppSendOpCond
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4410   .rodata.str1.4:0000013c .LC6
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:933    .text:00000c4c $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:937    .text:00000c58 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:942    .text:00000c58 sdResetCard
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4048   .data:00000000 .LANCHOR1
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4412   .rodata.str1.4:00000168 .LC7
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1057   .text:00000df8 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1060   .text:00000e00 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1065   .text:00000e00 sdTransferBlocks.constprop.7
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4418   .rodata.str1.4:000001b4 .LC9
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4415   .rodata.str1.4:00000188 .LC8
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1206   .text:00000fe4 LoadDrivePartition
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4421   .rodata.str1.4:000001dc .LC10
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4427   .rodata.str1.4:0000022c .LC12
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4424   .rodata.str1.4:00000200 .LC11
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1379   .text:00001248 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1381   .text:0000124c $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1387   .text:0000124c sdTransferBlocks
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1607   .text:00001540 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1610   .text:00001548 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1616   .text:00001548 sdClearBlocks
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4430   .rodata.str1.4:00000278 .LC13
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1702   .text:00001674 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1704   .text:00001678 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1710   .text:00001678 getSetNextCluster
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1835   .text:00001838 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1838   .text:00001840 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1844   .text:00001840 WildcardMatch
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1960   .text:000019b8 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1962   .text:000019bc $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:1967   .text:000019bc LocateFATEntry
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2470   .text:000020d0 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2472   .text:000020d4 $a
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 84
 
 
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2478   .text:000020d4 sdFindFirstFile
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2738   .text:00002478 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2741   .text:00002480 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2747   .text:00002480 sdFindNextFile
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2805   .text:00002534 sdFindClose
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:2832   .text:00002570 sdCreateFile
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4386   .bss:00000cc0 intFileIORecord
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3137   .text:000029c8 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3139   .text:000029cc $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3145   .text:000029cc sdReadFile
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3384   .text:00002d1c $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3386   .text:00002d20 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3392   .text:00002d20 sdCloseHandle
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3419   .text:00002d5c sdSetFilePointer
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3660   .text:000030cc $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3662   .text:000030d0 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3668   .text:000030d0 sdGetFileSize
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:3693   .text:00003104 sdInitCard
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4037   .rodata:00000000 .LANCHOR2
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4437   .rodata.str1.4:000002f0 .LC16
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4432   .rodata.str1.4:000002a4 .LC14
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4434   .rodata.str1.4:000002c8 .LC15
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4005   .text:00003578 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4016   .text:000035a0 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4022   .text:000035a0 sdCardCSD
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4373   .bss:00000000 LOG_ERROR
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4036   .rodata:00000000 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4040   .rodata:00000000 SD_TYPE_NAME
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4047   .data:00000000 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4051   .data:00000000 sdCommandTable
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4369   .bss:00000000 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4378   .bss:00000008 sdCard
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4382   .bss:00000080 intSearchRecord
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:4389   .rodata.str1.4:00000000 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2478   .text:000020d4 sdFindFirstFile
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2738   .text:00002478 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2741   .text:00002480 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2747   .text:00002480 sdFindNextFile
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2805   .text:00002534 sdFindClose
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:2832   .text:00002570 sdCreateFile
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4386   .bss:00000cc0 intFileIORecord
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3137   .text:000029c8 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3139   .text:000029cc $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3145   .text:000029cc sdReadFile
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3384   .text:00002d1c $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3386   .text:00002d20 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3392   .text:00002d20 sdCloseHandle
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3419   .text:00002d5c sdSetFilePointer
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3660   .text:000030cc $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3662   .text:000030d0 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3668   .text:000030d0 sdGetFileSize
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:3693   .text:00003104 sdInitCard
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4037   .rodata:00000000 .LANCHOR2
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4437   .rodata.str1.4:000002f0 .LC16
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4432   .rodata.str1.4:000002a4 .LC14
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4434   .rodata.str1.4:000002c8 .LC15
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4005   .text:00003578 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4016   .text:000035a0 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4022   .text:000035a0 sdCardCSD
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4373   .bss:00000000 LOG_ERROR
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4036   .rodata:00000000 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4040   .rodata:00000000 SD_TYPE_NAME
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4047   .data:00000000 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4051   .data:00000000 sdCommandTable
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4369   .bss:00000000 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4378   .bss:00000008 sdCard
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4382   .bss:00000080 intSearchRecord
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:4389   .rodata.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 RPi_IO_Base_Addr
@@ -11590,7 +11590,7 @@ timer_wait
 _ctype_
 wctob
 strchr
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 1
 
 
    1              		.arch armv7-a
@@ -11650,7 +11650,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
   55              		.type	fonts_init, %function
   56              	fonts_init:
   57              		@ args = 0, pretend = 0, frame = 16
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 2
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 2
 
 
   58              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -11710,7 +11710,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  112 00f8 081383E5 		str	r1, [r3, #776]
  113 00fc FC0283E5 		str	r0, [r3, #764]
  114 0100 A4E283E5 		str	lr, [r3, #676]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 3
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 3
 
 
  115 0104 ACE283E5 		str	lr, [r3, #684]
@@ -11770,7 +11770,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  169 01dc 341483E5 		str	r1, [r3, #1076]
  170 01e0 38C483E5 		str	ip, [r3, #1080]
  171 01e4 3C2483E5 		str	r2, [r3, #1084]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 4
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 4
 
 
  172 01e8 742483E5 		str	r2, [r3, #1140]
@@ -11830,7 +11830,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  226 02c0 BC2583E5 		str	r2, [r3, #1468]
  227 02c4 04A09DE5 		ldr	r10, [sp, #4]
  228 02c8 646683E5 		str	r6, [r3, #1636]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 5
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 5
 
 
  229 02cc 066C83E2 		add	r6, r3, #1536
@@ -11890,7 +11890,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  283 03a4 A42683E5 		str	r2, [r3, #1700]
  284 03a8 C84683E5 		str	r4, [r3, #1736]
  285 03ac CC2683E5 		str	r2, [r3, #1740]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 6
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 6
 
 
  286 03b0 D02683E5 		str	r2, [r3, #1744]
@@ -11950,7 +11950,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  340 0488 142883E5 		str	r2, [r3, #2068]
  341 048c 182883E5 		str	r2, [r3, #2072]
  342 0490 1C2883E5 		str	r2, [r3, #2076]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 7
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 7
 
 
  343 0494 200883E5 		str	r0, [r3, #2080]
@@ -12010,7 +12010,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  386      00000000 
  386      00000000 
  387              		.type	C, %object
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 8
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 8
 
 
  388              		.size	C, 100
@@ -12070,7 +12070,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  414      00000000 
  415              		.type	O, %object
  416              		.size	O, 100
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 9
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 9
 
 
  417              	O:
@@ -12130,7 +12130,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  443              		.type	DOLLAR_SIGN, %object
  444              		.size	DOLLAR_SIGN, 100
  445              	DOLLAR_SIGN:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 10
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 10
 
 
  446 0858 00000000 		.space	100
@@ -12139,38 +12139,38 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  446      00000000 
  446      00000000 
  447              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 8-2018-q4-major) 8.2.1 20181213 (release) [gcc
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 11
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 fonts.c
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:18     .text:00000000 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:25     .text:00000000 fonts_is_implemented
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:373    .bss:00000000 .LANCHOR0
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:40     .text:00000010 fonts_char_to_font
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:56     .text:00000024 fonts_init
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:372    .bss:00000000 $d
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:376    .bss:00000000 char_is_implemented
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:381    .bss:00000080 char_font_map
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:385    .bss:0000027c A
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:389    .bss:000002e0 C
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:393    .bss:00000344 E
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:397    .bss:000003a8 H
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:401    .bss:0000040c I
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:405    .bss:00000470 L
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:409    .bss:000004d4 M
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:413    .bss:00000538 N
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:417    .bss:0000059c O
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:421    .bss:00000600 P
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:425    .bss:00000664 R
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:429    .bss:000006c8 S
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:433    .bss:0000072c T
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:437    .bss:00000790 W
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:441    .bss:000007f4 Z
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:445    .bss:00000858 DOLLAR_SIGN
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:18     .text:00000000 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:25     .text:00000000 fonts_is_implemented
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:373    .bss:00000000 .LANCHOR0
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:40     .text:00000010 fonts_char_to_font
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:56     .text:00000024 fonts_init
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:372    .bss:00000000 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:376    .bss:00000000 char_is_implemented
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:381    .bss:00000080 char_font_map
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:385    .bss:0000027c A
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:389    .bss:000002e0 C
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:393    .bss:00000344 E
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:397    .bss:000003a8 H
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:401    .bss:0000040c I
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:405    .bss:00000470 L
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:409    .bss:000004d4 M
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:413    .bss:00000538 N
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:417    .bss:0000059c O
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:421    .bss:00000600 P
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:425    .bss:00000664 R
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:429    .bss:000006c8 S
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:433    .bss:0000072c T
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:437    .bss:00000790 W
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:441    .bss:000007f4 Z
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:445    .bss:00000858 DOLLAR_SIGN
 
 NO UNDEFINED SYMBOLS
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 1
 
 
    1              		.arch armv7-a
@@ -12230,7 +12230,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
   55 0014 005090E5 		ldr	r5, [r0]
   56 0018 007091E5 		ldr	r7, [r1]
   57 001c 04A090E5 		ldr	r10, [r0, #4]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 2
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 2
 
 
   58 0020 053057E0 		subs	r3, r7, r5
@@ -12290,7 +12290,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  112 00e8 EBFFFF1A 		bne	.L19
  113 00ec 1CD08DE2 		add	sp, sp, #28
  114              		@ sp needed
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 3
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 3
 
 
  115 00f0 F08FBDE8 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
@@ -12350,7 +12350,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  169 0190 000053E3 		cmp	r3, #0
  170 0194 4B00000A 		beq	.L39
  171 0198 20A09DE5 		ldr	r10, [sp, #32]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 4
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 4
 
 
  172 019c 003000E3 		movw	r3, #:lower16:printf
@@ -12410,7 +12410,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  226 0268 062082C0 		addgt	r2, r2, r6
  227 026c 038088C0 		addgt	r8, r8, r3
  228              	.L37:
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 5
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 5
 
 
  229 0270 0240A0E1 		mov	r4, r2
@@ -12470,7 +12470,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  283 033c FEFFFFEB 		bl	hal_io_video_line
  284 0340 003097E5 		ldr	r3, [r7]
  285 0344 050053E1 		cmp	r3, r5
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 6
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 6
 
 
  286 0348 EBFFFF8A 		bhi	.L40
@@ -12530,7 +12530,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  340 03e0 0090A0E1 		mov	r9, r0
  341 03e4 000053E3 		cmp	r3, #0
  342 03e8 0040A011 		movne	r4, r0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 7
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 7
 
 
  343 03ec 0070A013 		movne	r7, #0
@@ -12590,7 +12590,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  397 04b8 04209DE5 		ldr	r2, [sp, #4]
  398 04bc 9B0505E0 		mul	r5, fp, r5
  399 04c0 1CC09DE5 		ldr	ip, [sp, #28]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 8
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 8
 
 
  400 04c4 9B0606B0 		mullt	r6, fp, r6
@@ -12650,7 +12650,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  454 058c 012082E2 		add	r2, r2, #1
  455 0590 020053E1 		cmp	r3, r2
  456 0594 08208DE5 		str	r2, [sp, #8]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 9
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 9
 
 
  457 0598 B9FFFF8A 		bhi	.L73
@@ -12710,7 +12710,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  511 0640 FEFFFFEB 		bl	fonts_char_to_font
  512 0644 003090E5 		ldr	r3, [r0]
  513 0648 000053E3 		cmp	r3, #0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 10
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 10
 
 
  514 064c 1900000A 		beq	.L95
@@ -12770,7 +12770,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  568 0718 083099E5 		ldr	r3, [r9, #8]
  569 071c 000056E3 		cmp	r6, #0
  570 0720 101099E5 		ldr	r1, [r9, #16]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 11
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 11
 
 
  571 0724 00C08DE5 		str	ip, [sp]
@@ -12830,7 +12830,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  625 07ec 18309DE5 		ldr	r3, [sp, #24]
  626 07f0 0B90A0E1 		mov	r9, fp
  627 07f4 04209DE5 		ldr	r2, [sp, #4]
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 12
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 12
 
 
  628 07f8 109089E2 		add	r9, r9, #16
@@ -12890,7 +12890,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  682 0894 00C092E5 		ldr	ip, [r2]
  683 0898 0120A0E1 		mov	r2, r1
  684 089c 000000E3 		movw	r0, #:lower16:printf
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 13
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 13
 
 
  685 08a0 9EC321E0 		mla	r1, lr, r3, ip
@@ -12950,7 +12950,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  737 091c 012300E3 		movw	r2, #769
  738 0920 302083E5 		str	r2, [r3, #48]
  739 0924 1EFF2FE1 		bx	lr
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 14
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 14
 
 
  740              		.size	hal_io_serial_init, .-hal_io_serial_init
@@ -13010,7 +13010,7 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  794              	hal_io_serial_getc:
  795              		@ args = 0, pretend = 0, frame = 0
  796              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 15
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 15
 
 
  797              		@ link register save eliminated.
@@ -13044,29 +13044,29 @@ ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 1
  825              	curr_x:
  826 0004 0A000000 		.word	10
  827              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 8-2018-q4-major) 8.2.1 20181213 (release) [gcc
-ARM GAS  C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s 			page 16
+ARM GAS  C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 hal_io.c
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:18     .text:00000000 $a
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:25     .text:00000000 hal_io_init
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:37     .text:00000004 hal_io_video_init
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:50     .text:0000000c hal_io_video_line
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:127    .text:00000100 hal_io_video_putc
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:818    .data:00000000 .LANCHOR0
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:319    .text:000003a4 hal_io_video_putc_x_y
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:470    .text:000005ac hal_io_video_puts
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:675    .text:00000884 hal_io_video_put_pixel
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:697    .text:000008b4 hal_io_serial_init
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:712    .text:000008d8 __delay_850
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:721    .text:000008e8 __delay_853
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:747    .text:00000928 hal_io_serial_puts
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:773    .text:0000095c hal_io_serial_putc
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:794    .text:00000980 hal_io_serial_getc
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:821    .data:00000000 curr_y
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:825    .data:00000004 curr_x
-C:\Users\Carlo\AppData\Local\Temp\ccOA75c1.s:817    .data:00000000 $d
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:18     .text:00000000 $a
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:25     .text:00000000 hal_io_init
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:37     .text:00000004 hal_io_video_init
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:50     .text:0000000c hal_io_video_line
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:127    .text:00000100 hal_io_video_putc
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:818    .data:00000000 .LANCHOR0
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:319    .text:000003a4 hal_io_video_putc_x_y
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:470    .text:000005ac hal_io_video_puts
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:675    .text:00000884 hal_io_video_put_pixel
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:697    .text:000008b4 hal_io_serial_init
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:712    .text:000008d8 __delay_850
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:721    .text:000008e8 __delay_853
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:747    .text:00000928 hal_io_serial_puts
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:773    .text:0000095c hal_io_serial_putc
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:794    .text:00000980 hal_io_serial_getc
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:821    .data:00000000 curr_y
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:825    .data:00000004 curr_x
+C:\Users\remtr\AppData\Local\Temp\ccitKQGA.s:817    .data:00000000 $d
 
 UNDEFINED SYMBOLS
 fonts_init
