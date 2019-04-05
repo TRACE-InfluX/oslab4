@@ -55,6 +55,7 @@ static uint8_t* cmd_names[] = { "ls",				//CAREFUL WITH MISSING COMMAS
 																"poke",
 																"print",
 																"goto",
+																"interpret",
 																SENTINEL_CMD
 																};
 
@@ -63,7 +64,7 @@ uint8_t* day_to_month[] = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
 
 //The actual commands (Add ptrs to commands here)
 //(NOTE: indexes between cmd_names and cmds_ptrs must match)
-static void (*cmd_ptrs[])(uint8_t *, uint32_t) = { commands_ls,
+static void(*cmd_ptrs[])(uint8_t *, uint32_t) = { commands_ls,
 																									commands_cat,
 																									commands_date,
 																									commands_sysinfo,
@@ -71,7 +72,8 @@ static void (*cmd_ptrs[])(uint8_t *, uint32_t) = { commands_ls,
 																									commands_cd,
 																									commands_poke,
 																									commands_print,
-																									commands_goto
+																									commands_goto,
+																									commands_interpret
 																									};
 static uint8_t newline;
 
