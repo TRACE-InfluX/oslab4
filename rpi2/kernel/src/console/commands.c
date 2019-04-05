@@ -27,6 +27,44 @@
 #define MAX_PATH_LENGTH	100
 uint8_t curr_path[MAX_PATH_LENGTH];
 
+void commands_interpret(uint8_t* param, uint32_t num_params) {
+#define MAX_CHARS_IN_FILE	2048 //2Kb for now
+	uint8_t buffer[MAX_CHARS_IN_FILE];
+
+	//checks param
+	if (num_params == 0) {
+		console_puts("interpret: filename missing");
+		return;
+	}
+
+	//checks file
+	uint32_t size = hal_nvmem_fat_file_size(param);
+	if (size == 0) {
+		console_puts("interpret: file does not exist");
+		return;
+	}
+
+
+	//reads
+	uint32_t bytes_read = hal_nvmem_fat_file_read(param, buffer, MAX_CHARS_IN_FILE);
+
+	//turns buffer into a string
+	buffer[bytes_read - 1] = '\0';
+	char* list[10];
+	int i = 0;
+	char* token = strtok(buffer, "\n");
+	while (token != NULL) {
+		list[i] = token;
+		token = strtok(NULL, "\n");
+		++i;
+	}
+	for (int d = 0; d < i; d++) {
+		console_puts(list[d]);
+		console_puts("\n\r");
+	}
+}
+
+
 void commands_init(void){
 	//Init the current path
 	for(uint32_t i=0; i<MAX_PATH_LENGTH; i++)
