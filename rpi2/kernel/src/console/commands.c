@@ -19,7 +19,8 @@
 #include "commands.h"
 #include "../kernel.h"
 #include "../drivers/stdio/emb-stdio.h"
-
+extern void _hal_io_video_put_pixel_raw( uint32_t, VideoColor );
+int getNumberFromString(const char*);
 
 /*
 *
@@ -58,10 +59,46 @@ void commands_interpret(uint8_t* param, uint32_t num_params) {
 		token = strtok(NULL, "\n");
 		++i;
 	}
-	for (int d = 0; d < i; d++) {
-		console_puts(list[d]);
-		console_puts("\n\r");
+	char temp[10][50];
+	int d = 0;
+	for (int xd = 0; xd < i; xd++) {
+		strcpy(temp[xd], list[xd]);
 	}
+	while (d < i) {
+		char* token = strtok(temp[d], " ");
+		if (strcmp(token, "GOTO") == 0) {
+			char* c = token + 5;
+			d = getNumberFromString(c) - 2;
+		}
+		if (strcmp(token, "POKE") == 0) {
+			char* d = strtok(NULL, " ");
+			char* c = strtok(NULL, " ");
+			_hal_io_video_put_pixel_raw(getNumberFromString(d), getNumberFromString(c));
+		}
+		if (strcmp(token, "PRINT") == 0) {
+			char* c = strtok(NULL, " ");
+			console_puts(c);
+
+		}
+		console_puts("\n\r");
+		strcpy(temp[d], list[d]);
+		++d;
+
+	}
+}
+int getNumberFromString(const char* numberString)
+{
+	int number = 0;
+	int i;
+	int stringLength = strlen(numberString);
+
+	for (i = 0; i < stringLength; ++i)
+	{
+		number *= 10;
+		number += numberString[i] - '0';
+	}
+
+	return number;
 }
 
 

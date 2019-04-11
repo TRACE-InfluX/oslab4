@@ -22,5 +22,5 @@ void commands_poke( uint8_t*, uint32_t );
 void commands_print( uint8_t*, uint32_t );
 void commands_goto( uint8_t*, uint32_t );
 void commands_interpret(uint8_t*, uint32_t);
-
+void interpret_command(char*);
 #endif /* COMMANDS_H_ */
